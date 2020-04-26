@@ -135,7 +135,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #ED6504;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2089,11 +2089,11 @@ input, select, textarea {
 				white-space: nowrap;
 			}
 
-			.image.thumb:hover:after {
+			.fit:hover:after {
 				opacity: 1.0;
 			}
 
-			.image.thumb:hover:before {
+			.fit:hover:before {
 				background: url("images/overlay.png"), url("images/overlay.png");
 				opacity: 1.0;
 			}
@@ -2123,17 +2123,28 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		a.fit {
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+
 		.fit {
-			display: block;
+			display: flex;
+			box-sizing: border-box;
 			margin: 0 0 2em 0;
-			width: 100%;
-			text-decoration: none;
+			width: 420px;
+			height: 305px;
+			justify-content: center;
+			align-items: center;
 		}
 		
 		.fit img {
+			border: 1px solid #B4C9CA;
+			box-shadow: 0 10px 6px -6px #B4C9CA;
 			border-radius: 0.35em;
-			width: 100%;
+			width: 400px;
 			text-decoration: none;
+			height: 285px;
 			}
 
 		.image.avatar {
@@ -2197,10 +2208,10 @@ input, select, textarea {
 		list-style: none;
 		padding-left: 0;
 	}
-
-		ul.icons li {
-			display: inline-block;
-			padding: 0 1em 0 0;
+	
+	ul.icons li {
+		display: inline-block;
+		padding: 0 1em 0 0;
 		}
 
 			ul.icons li:last-child {
@@ -2210,6 +2221,7 @@ input, select, textarea {
 			ul.icons li .icon:before {
 				font-size: 1.5em;
 			}
+
 
 /* Labeled Icons */
 
@@ -2448,7 +2460,7 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
+		border: solid 3px #287FB8;
 		color: #787878 !important;
 		cursor: pointer;
 		display: inline-block;
@@ -2549,7 +2561,7 @@ input, select, textarea {
 		.button.disabled,
 		.button:disabled {
 			background-color: #e7e7e7 !important;
-			border-color: #e7e7e7 !important;
+			border-color: #ED6504 !important;
 			color: #b2b2b2 !important;
 			cursor: default;
 		}
@@ -2595,11 +2607,11 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background-color: #1f1815;
-		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		/* background-attachment: scroll,								scroll; */
+		background-image: url("images/overlay.png"), url("../../images/moon_at_sunset.jpg");
+    background-position: top left,              top left;
+    background-repeat: repeat,                no-repeat;
+    background-size: auto,                150%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -3221,4 +3233,19 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
+	}
+
+	/* skills */
+	.skills {
+		list-style: none;
+	}
+
+	ul.skills li {
+    display: inline-block;
+    padding: 2.5em;
+    text-align: center;
+}
+
+	.skill-icon{
+		font-size: 80px;
 	}
