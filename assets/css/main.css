@@ -2132,8 +2132,8 @@ input, select, textarea {
 			display: flex;
 			box-sizing: border-box;
 			margin: 0 0 2em 0;
-			width: 420px;
-			height: 305px;
+			/* width: 420px;
+			height: 305px; */
 			justify-content: center;
 			align-items: center;
 		}
@@ -2142,9 +2142,9 @@ input, select, textarea {
 			border: 1px solid #B4C9CA;
 			box-shadow: 0 10px 6px -6px #B4C9CA;
 			border-radius: 0.35em;
-			width: 400px;
+			width: 380px;
 			text-decoration: none;
-			height: 285px;
+			height: 250px;
 			}
 
 		.image.avatar {
