@@ -3249,3 +3249,8 @@ input, select, textarea {
 	.skill-icon{
 		font-size: 80px;
 	}
+
+	.sd {
+		color: #B4C9CA;
+		font-size: 100%;
+	}
