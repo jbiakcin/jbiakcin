@@ -2142,9 +2142,9 @@ input, select, textarea {
 			border: 1px solid #B4C9CA;
 			box-shadow: 0 10px 6px -6px #B4C9CA;
 			border-radius: 0.35em;
-			width: 380px;
+			width: 350px;
 			text-decoration: none;
-			height: 250px;
+			height: 220px;
 			}
 
 		.image.avatar {
