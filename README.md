@@ -1,4 +1,3 @@
-# jbiakcin
-Personal Portfolio Site
+## Personal Portfolio Site
 
 [Portfolio Live Site](http://www.jbiakcin.com/)
